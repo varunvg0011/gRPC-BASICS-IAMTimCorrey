@@ -1,0 +1,46 @@
+git init - initialize a git repo
+
+touch [filename] - create a new file
+
+git status - tells if there has been a change in your project
+
+git add . - add everything to the staging area that has been changed in the project. staging is an area from whereafter we can commit those changes and finalize it.
+
+git add [filename] - adds just the named file
+
+git commit -m "[message]" - to commit the ones with a message which are staged 
+
+git restore --staged [filename] or . - This undo the staged items (which are not committed yet).
+
+vim [filename] - go inside file and add something to it. then press i to get in insert mode then press esc+x to exit
+
+
+cat [filename] - display whatever is inside file
+git 
+git log - see the entire history of commits
+
+git reset [commit id] -  undo a commit
+
+
+git stash - get all changes from staging area to the backstage area(can be recovered later). I dont want to commit them yet but i dont want to lose them either
+
+
+git stash pop - get changes from backstage to staging area
+
+git stash clear -clear all the changes which we put in the backstage area
+
+
+COMMANDS TO SHARE ON GITHUB
+
+create a new repository in GIT
+
+git remote add origin [URL] - we want the URL of git repo to be attached to our current project
+
+git remote -v - it will show all the URLs attached the current foler/project
+
+git push origin master - push the changes to origin in the master branch
+
+git remote rm origin - remove the associated URL of git repo
+
+https://www.canva.com/design/DAFVseHduMc/R3Q3V7uzeEzxBwpmdXe-cA/edit?utm_source=onboarding#
+
